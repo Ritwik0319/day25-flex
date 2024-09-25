@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-padding-top: 8vh;
+}
+a {
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 7vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.left {
+    color: rgb(72, 71, 71);
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    padding-left: 1rem;
+}
+.right {
+    display: flex;
+    gap: 15px;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    margin: 30px;
+}
+.hero {
+    background-image: url(./Assets/hero.jpg);
+    height: 90vh;
+}
+.hero {
+    display: flex;
+    align-items: flex-end;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    color: rgb(137, 133, 133); 
+}
+.hero p {
+    padding: 20px;
+}
+.about {
+    display: flex;
+    margin: 8rem 10rem;
+}
+.abouta {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.abouta img {
+    height: 85vh;
+    width: 90%;
+    border-radius: 5px;
+}
+.aboutb {
+    flex-basis: 50%;
+    margin: 3rem;
+}
+#title {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+#tdic {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+    margin-top: 3rem;
+    color: rgb(137, 133, 133); 
+}
+#t-about {
+    line-height: 2rem;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+#t-about1 {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding-top: 30px;
+    color: rgb(120, 118, 118);
+}
+.menu {
+    margin: 8rem 10rem;
+    display: flex;
+}
+#menu-title {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+.menu-items {
+    margin-top: 3rem;
+}
+.mleft {
+    flex-basis: 50%;
+    margin-left: 2.5rem;
+}
+.mright {
+    flex-basis: 50%;
+}
+.mright img {
+    height: 85vh;
+    width: 85%;
+    border-radius: 5px;
+}
+.par {
+    font-size: 1.5rem;
+    color: rgb(53, 52, 52);
+}
+.chi {
+    color: rgb(119, 118, 118);
+    margin: 1.5rem 0;
+}
+.contact {
+    margin: 8rem 12rem;
+    height: 80vh;
+}
+.ctitle {
+    font-size: 2rem;
+    letter-spacing: 8px;  
+    margin-bottom: 4rem; 
+}
+.p1, .p2{
+    line-height: 2rem;
+    margin: 2rem 0; 
+}
+.p2 {
+    font-size: 1.3rem;
+    color: rgb(98, 121, 96);
+    font-weight: 900;
+}
