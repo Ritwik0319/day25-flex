@@ -139,3 +139,22 @@ a {
     color: rgb(98, 121, 96);
     font-weight: 900;
 }
+input {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(202, 201, 201);
+    margin: 1rem;
+}
+button {
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    margin-left: 0.9rem;
+}
+button:hover {
+    background-color: rgb(196, 194, 194);
+}
