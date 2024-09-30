@@ -6,6 +6,7 @@
 }
 html {
     scroll-padding-top: 8vh;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -36,7 +37,7 @@ a {
 }
 .hero {
     background: url(./Assets/hero.jpg) no-repeat scroll;
-    height: 90vh;
+    height: 92vh;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -161,8 +162,8 @@ button:hover {
 @media screen and (width<=576px) {
     .hero{
         background-size: 100%;
-        height: 40vh;
-        font-size: 2rem;
+        height: 25vh;
+        font-size: 1.5rem;
     }
     .hero p {
         padding: .5rem;
